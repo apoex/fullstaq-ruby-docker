@@ -1,6 +1,6 @@
 FROM buildpack-deps:buster
 
-ARG RUBY_VERSION=2.7.1
+ARG RUBY_VERSION=2.7.2
 ARG RUBY_VERSION_FULL=${RUBY_VERSION}-jemalloc
 
 # RUN with pipe recommendation: https://github.com/hadolint/hadolint/wiki/DL4006
